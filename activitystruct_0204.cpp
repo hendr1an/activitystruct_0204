@@ -31,4 +31,9 @@ int main(){
         cin >> mhs[i].umur;
         cin.ignore(1,'\n');
 }
+for (int=0;i<3;i++){
+    cout << endl;
+    cout <<"\n NIM : "<<mhs[i].nim;
+    cout << "\n Alamat : "<< mhs[i].nama;
+}
         
