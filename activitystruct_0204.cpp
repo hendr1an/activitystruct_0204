@@ -37,5 +37,8 @@ int main(){
         cout <<"\n NIM : "<<mhs[i].nim;
         cout << "\n Nama : "<<mhs[i].nama;
         cout << "\n Alamat : ";
+        cout << "\n \t Desa : "<< mhs[i].alamat.desa;
+        cout << "\n \t Kota : "<< mhs[i].alamat.kota;
+        cout << "\n Umur : "<< mhs[i].umur;
     }
 }
