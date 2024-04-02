@@ -35,5 +35,8 @@ for (int=0;i<3;i++){
     cout << endl;
     cout <<"\n NIM : "<<mhs[i].nim;
     cout << "\n Alamat : "<< mhs[i].nama;
+    cout << "\n \t Desa : "<< mhs[i].alamat.desa;
+    cout << "\n \t Kota : "<< mhs[i].alamat.kota;
+    cout << "\n umur : "<< mhs[i].umur;
+    }
 }
-        
